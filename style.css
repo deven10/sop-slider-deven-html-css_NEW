@@ -51,6 +51,7 @@ font-family: 'breadley_sansregular';
 
 .slider-wrapper{
     width: 85%;
+    /* background-color: red; */
 }
 
 /* --- */
@@ -92,6 +93,7 @@ font-family: 'breadley_sansregular';
     width: 100%;
     justify-content: center;
     align-items: start;
+    /* background-color: pink; */
     /* transition: all .5s ease; */
   }
   /* -------------------------------- */
@@ -151,7 +153,12 @@ font-family: 'breadley_sansregular';
     box-shadow: 1.5px 1.5px 0px 3px #102E4A;
     -webkit-box-shadow: 1.5px 1.5px 0px 3px #102E4A;
     -moz-box-shadow: 1.5px 1.5px 0px 3px #102E4A;
+    /* opacity: .5; */
   }
+
+  /* .image-three{
+    opacity: 1;
+  } */
 
   .username{
     font-weight: 700;
