@@ -53,7 +53,10 @@ img1.addEventListener("click", () => {
   userInfo.innerHTML =
     "dipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur";
 
-  userInfo.classList.add("animate__animated animate__fadeIn");
+  userInfo.classList.add("animate__fadeIn");
+  setTimeout(() => {
+    userInfo.classList.remove("animate__fadeIn");
+  }, 300);
 });
 
 img2.addEventListener("click", () => {
@@ -74,7 +77,10 @@ img2.addEventListener("click", () => {
   userInfo.innerHTML =
     "dipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit";
 
-  userInfo.classList.add("animate__animated animate__fadeIn");
+  userInfo.classList.add("animate__fadeIn");
+  setTimeout(() => {
+    userInfo.classList.remove("animate__fadeIn");
+  }, 300);
 });
 
 img3.addEventListener("click", () => {
@@ -93,9 +99,11 @@ img3.addEventListener("click", () => {
   testiMonialContentsFive.classList.remove("show");
 
   userInfo.innerHTML =
-    " illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo dipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit";
-
-  userInfo.classList.add("animate__animated animate__fadeIn");
+    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!";
+  userInfo.classList.add("animate__fadeIn");
+  setTimeout(() => {
+    userInfo.classList.remove("animate__fadeIn");
+  }, 300);
 });
 
 img4.addEventListener("click", () => {
@@ -116,7 +124,10 @@ img4.addEventListener("click", () => {
   userInfo.innerHTML =
     " illo explicabo Odio ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo dipisicing rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est";
 
-  userInfo.classList.add("animate__animated animate__fadeIn");
+  userInfo.classList.add("animate__fadeIn");
+  setTimeout(() => {
+    userInfo.classList.remove("animate__fadeIn");
+  }, 300);
 });
 
 img5.addEventListener("click", () => {
@@ -128,8 +139,6 @@ img5.addEventListener("click", () => {
   img4.style.opacity = ".5";
   img5.style.opacity = "1";
 
-  console.log(img5);
-
   testiMonialContentsFive.classList.add("show");
   testiMonialContentsOne.classList.remove("show");
   testiMonialContentsTwo.classList.remove("show");
@@ -138,5 +147,11 @@ img5.addEventListener("click", () => {
 
   userInfo.innerHTML =
     "dipisicing rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est illo explicabo Odio ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo";
-  userInfo.classList.add("animate__animated animate__fadeIn");
+
+  userInfo.classList.add("animate__fadeIn");
+  setTimeout(() => {
+    userInfo.classList.remove("animate__fadeIn");
+  }, 300);
 });
+
+console.log(userInfo);
