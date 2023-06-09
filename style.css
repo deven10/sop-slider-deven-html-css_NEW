@@ -7,8 +7,8 @@ font-family: 'breadley_sansregular';
 
 @font-face {
   font-family: 'breadley_sansregular';
-  src: url('../src/fonts/breadleysans-regular-webfont.woff2') format('woff2'),
-       url('../src//fonts/breadleysans-regular-webfont.woff') format('woff');
+  src: url('./fonts/breadleysans-regular-webfont.woff2') format('woff2'),
+       url('./fonts/breadleysans-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -37,6 +37,7 @@ font-family: 'breadley_sansregular';
 }
 
 .main-content h2{
+    font-family: 'breadley_sansregular' !important;
     margin: 0;
     padding: 0;
     color: #fff;
@@ -44,7 +45,6 @@ font-family: 'breadley_sansregular';
     word-spacing: 10px;
     margin-bottom: 30px;
     letter-spacing: 2px;
-    font-family: 'breadley_sansregular';
     width: 70%;
     text-align: center;
 }
