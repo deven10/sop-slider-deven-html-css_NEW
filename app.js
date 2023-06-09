@@ -21,6 +21,12 @@ const testiMonialContentsFive = document.querySelector(
   ".testimonial-content-five"
 );
 
+const firstTestimonial = document.querySelector(".first-testimonial");
+const secondTestimonial = document.querySelector(".second-testimonial");
+const thirdTestimonial = document.querySelector(".third-testimonial");
+const fourthTestimonial = document.querySelector(".fourth-testimonial");
+const fifthTestimonial = document.querySelector(".fifth-testimonial");
+
 // All images of testimonials
 const img1 = document.querySelector(".image-one");
 const img2 = document.querySelector(".image-two");
@@ -50,6 +56,12 @@ img1.addEventListener("click", () => {
   testiMonialContentsFour.classList.remove("show");
   testiMonialContentsFive.classList.remove("show");
 
+  firstTestimonial.style.flexGrow = "2";
+  secondTestimonial.style.flexGrow = "1";
+  thirdTestimonial.style.flexGrow = "1";
+  fourthTestimonial.style.flexGrow = "1";
+  fifthTestimonial.style.flexGrow = "1";
+
   userInfo.innerHTML =
     "dipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur";
 
@@ -73,6 +85,12 @@ img2.addEventListener("click", () => {
   testiMonialContentsThree.classList.remove("show");
   testiMonialContentsFour.classList.remove("show");
   testiMonialContentsFive.classList.remove("show");
+
+  firstTestimonial.style.flexGrow = "1";
+  secondTestimonial.style.flexGrow = "2";
+  thirdTestimonial.style.flexGrow = "1";
+  fourthTestimonial.style.flexGrow = "1";
+  fifthTestimonial.style.flexGrow = "1";
 
   userInfo.innerHTML =
     "dipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit";
@@ -98,6 +116,12 @@ img3.addEventListener("click", () => {
   testiMonialContentsFour.classList.remove("show");
   testiMonialContentsFive.classList.remove("show");
 
+  firstTestimonial.style.flexGrow = "1";
+  secondTestimonial.style.flexGrow = "1";
+  thirdTestimonial.style.flexGrow = "2";
+  fourthTestimonial.style.flexGrow = "1";
+  fifthTestimonial.style.flexGrow = "1";
+
   userInfo.innerHTML =
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!";
   userInfo.classList.add("animate__fadeIn");
@@ -120,6 +144,12 @@ img4.addEventListener("click", () => {
   testiMonialContentsTwo.classList.remove("show");
   testiMonialContentsThree.classList.remove("show");
   testiMonialContentsFive.classList.remove("show");
+
+  firstTestimonial.style.flexGrow = "1";
+  secondTestimonial.style.flexGrow = "1";
+  thirdTestimonial.style.flexGrow = "1";
+  fourthTestimonial.style.flexGrow = "4";
+  fifthTestimonial.style.flexGrow = "1";
 
   userInfo.innerHTML =
     " illo explicabo Odio ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo dipisicing rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est";
@@ -144,6 +174,12 @@ img5.addEventListener("click", () => {
   testiMonialContentsTwo.classList.remove("show");
   testiMonialContentsThree.classList.remove("show");
   testiMonialContentsFour.classList.remove("show");
+
+  firstTestimonial.style.flexGrow = "1";
+  secondTestimonial.style.flexGrow = "1";
+  thirdTestimonial.style.flexGrow = "1";
+  fourthTestimonial.style.flexGrow = "1";
+  fifthTestimonial.style.flexGrow = "5";
 
   userInfo.innerHTML =
     "dipisicing rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est illo explicabo Odio ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo";
