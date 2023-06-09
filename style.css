@@ -45,6 +45,8 @@ font-family: 'breadley_sansregular';
     margin-bottom: 30px;
     letter-spacing: 2px;
     font-family: 'breadley_sansregular';
+    width: 70%;
+    text-align: center;
 }
 
 .slider-wrapper{
@@ -55,6 +57,9 @@ font-family: 'breadley_sansregular';
 
 .user-info-wrapper{
     display: flex;
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
 }
 
 .down-inverted-comma, .up-inverted-comma{
@@ -87,6 +92,7 @@ font-family: 'breadley_sansregular';
     width: 100%;
     justify-content: center;
     align-items: start;
+    /* transition: all .5s ease; */
   }
   /* -------------------------------- */
 
@@ -142,6 +148,9 @@ font-family: 'breadley_sansregular';
     width: 100px;
     border-radius: 50%;
     cursor: pointer;
+    box-shadow: 1.5px 1.5px 0px 3px #102E4A;
+    -webkit-box-shadow: 1.5px 1.5px 0px 3px #102E4A;
+    -moz-box-shadow: 1.5px 1.5px 0px 3px #102E4A;
   }
 
   .username{
