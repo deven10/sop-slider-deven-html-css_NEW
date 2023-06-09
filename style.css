@@ -123,6 +123,7 @@ font-family: 'breadley_sansregular';
     display: flex;
     position: relative;
     gap: 15px;
+    /* background-color: red;     */
   }
 
   .testimonial-content-one,  
@@ -130,7 +131,6 @@ font-family: 'breadley_sansregular';
   .testimonial-content-three,  
   .testimonial-content-four,  
   .testimonial-content-five{
-    /* display: flex; */
     flex-direction: column;
     gap: 5px;
     justify-content: center;
@@ -153,12 +153,7 @@ font-family: 'breadley_sansregular';
     box-shadow: 1.5px 1.5px 0px 3px #102E4A;
     -webkit-box-shadow: 1.5px 1.5px 0px 3px #102E4A;
     -moz-box-shadow: 1.5px 1.5px 0px 3px #102E4A;
-    /* opacity: .5; */
   }
-
-  /* .image-three{
-    opacity: 1;
-  } */
 
   .username{
     font-weight: 700;
