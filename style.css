@@ -107,7 +107,7 @@ font-family: 'breadley_sansregular';
 
 .slider-svg{
     position: absolute;
-    left: 34%;
+    left: 32.5%;
     transition: left .5s ease;
   }
 
@@ -127,7 +127,7 @@ font-family: 'breadley_sansregular';
   }
 
   .transition-all{
-    transition: all 1s ease-in;
+    transition: all .3s ease;
   }
 
   .testimonial-content-one,  

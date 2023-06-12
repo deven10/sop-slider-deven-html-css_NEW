@@ -72,7 +72,7 @@ img1.addEventListener("click", () => {
 });
 
 img2.addEventListener("click", () => {
-  caret.style.left = "18.5%";
+  caret.style.left = "17%";
 
   img1.style.opacity = ".5";
   img2.style.opacity = "1";
@@ -102,7 +102,7 @@ img2.addEventListener("click", () => {
 });
 
 img3.addEventListener("click", () => {
-  caret.style.left = "34%";
+  caret.style.left = "31.5%";
 
   img1.style.opacity = ".5";
   img2.style.opacity = ".5";
@@ -131,7 +131,7 @@ img3.addEventListener("click", () => {
 });
 
 img4.addEventListener("click", () => {
-  caret.style.left = "49.5%";
+  caret.style.left = "44%";
 
   img1.style.opacity = ".5";
   img2.style.opacity = ".5";
@@ -161,7 +161,7 @@ img4.addEventListener("click", () => {
 });
 
 img5.addEventListener("click", () => {
-  caret.style.left = "65%";
+  caret.style.left = "57%";
 
   img1.style.opacity = ".5";
   img2.style.opacity = ".5";
