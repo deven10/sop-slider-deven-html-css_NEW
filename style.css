@@ -122,20 +122,26 @@ font-family: 'breadley_sansregular';
     width: 16.25%;
   }
 
-  .transition-all{
-    transition: all .3s ease;
-  }
+  /* .transition-all{
+    transition: all 3s ease;
+  } */
 
   .testimonial-content-one,
   .testimonial-content-two,
   .testimonial-content-three,
   .testimonial-content-four, 
   .testimonial-content-five{
-    flex-direction: column;
-    gap: 5px;
-    justify-content: center;
-    color: #fff;
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    color: #fff;
+    /* background-color: red; */
+    width: 100%;
+  }
+
+  .testimonial-content-three{
+    display: flex;
   }
 
   .show{
@@ -274,8 +280,25 @@ font-family: 'breadley_sansregular';
       flex-direction: column;
       justify-content: start;
       align-items: center;
-      gap: 15px;
+      gap: 10px;
       padding: 0px 30px;
+    }
+
+    .mobile-user-information-wrapper h2{
+      font-family: 'breadley_sansregular' !important;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+      font-size: 34px;
+      word-spacing: 10px;
+    }
+
+    .mobile-user-info{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      letter-spacing: .3px;
+      font-weight: 400;
+      color: #fff;
     }
 
     /* -------- mobile-slider-line ------------ */
@@ -311,7 +334,6 @@ font-family: 'breadley_sansregular';
       align-items: center;
       position: relative;
       gap: 20px;
-      /* flex-grow: 1; */
     }
 
     .mobile-slider-testimonial-img{
@@ -333,7 +355,20 @@ font-family: 'breadley_sansregular';
       gap: 5px;
       justify-content: center;
       color: #fff;
-      /* display: none; */
+    }
+
+    .mobile-username{
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: .6px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .mobile-user-about{
+      font-weight: 400;
+      letter-spacing: .3px;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
     }
   }
 
@@ -482,11 +517,13 @@ font-family: 'breadley_sansregular';
 
     .mobile-username{
       font-size: 14px;
+      font-weight: 700;
+      letter-spacing: .6px;
+      font-family: 'Montserrat', sans-serif;
     }
 
     .mobile-user-about{
       font-size: 11px;
     }
-
   }
 

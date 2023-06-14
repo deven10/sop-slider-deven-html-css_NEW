@@ -59,12 +59,6 @@ img1.addEventListener("click", () => {
   img4.style.opacity = ".5";
   img5.style.opacity = ".5";
 
-  testiMonialContentsOne.style.display = "flex";
-  testiMonialContentsTwo.style.display = "none";
-  testiMonialContentsThree.style.display = "none";
-  testiMonialContentsFour.style.display = "none";
-  testiMonialContentsFive.style.display = "none";
-
   firstTestimonial.classList.add("show");
   secondTestimonial.classList.remove("show");
   thirdTestimonial.classList.remove("show");
@@ -77,11 +71,13 @@ img1.addEventListener("click", () => {
   fourthTestimonial.style.width = "16.25%";
   fifthTestimonial.style.width = "16.25%";
 
-  // firstTestimonial.style.flexGrow = "2";
-  // secondTestimonial.style.flexGrow = "1";
-  // thirdTestimonial.style.flexGrow = "1";
-  // fourthTestimonial.style.flexGrow = "1";
-  // fifthTestimonial.style.flexGrow = "1";
+  setTimeout(() => {
+    testiMonialContentsOne.style.display = "flex";
+    testiMonialContentsTwo.style.display = "none";
+    testiMonialContentsThree.style.display = "none";
+    testiMonialContentsFour.style.display = "none";
+    testiMonialContentsFive.style.display = "none";
+  }, 0);
 
   userInfo.innerHTML =
     "dipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur";
@@ -102,12 +98,6 @@ img2.addEventListener("click", () => {
   img4.style.opacity = ".5";
   img5.style.opacity = ".5";
 
-  testiMonialContentsOne.style.display = "none";
-  testiMonialContentsTwo.style.display = "flex";
-  testiMonialContentsThree.style.display = "none";
-  testiMonialContentsFour.style.display = "none";
-  testiMonialContentsFive.style.display = "none";
-
   firstTestimonial.classList.remove("show");
   secondTestimonial.classList.add("show");
   thirdTestimonial.classList.remove("show");
@@ -120,17 +110,13 @@ img2.addEventListener("click", () => {
   fourthTestimonial.style.width = "16.25%";
   fifthTestimonial.style.width = "16.25%";
 
-  // testiMonialContentsTwo.classList.add("show");
-  // testiMonialContentsOne.classList.remove("show");
-  // testiMonialContentsThree.classList.remove("show");
-  // testiMonialContentsFour.classList.remove("show");
-  // testiMonialContentsFive.classList.remove("show");
-
-  // firstTestimonial.style.flexGrow = "1";
-  // secondTestimonial.style.flexGrow = "2";
-  // thirdTestimonial.style.flexGrow = "1";
-  // fourthTestimonial.style.flexGrow = "1";
-  // fifthTestimonial.style.flexGrow = "1";
+  setTimeout(() => {
+    testiMonialContentsOne.style.display = "none";
+    testiMonialContentsTwo.style.display = "flex";
+    testiMonialContentsThree.style.display = "none";
+    testiMonialContentsFour.style.display = "none";
+    testiMonialContentsFive.style.display = "none";
+  }, 0);
 
   userInfo.innerHTML =
     "dipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit";
@@ -151,12 +137,6 @@ img3.addEventListener("click", () => {
   img4.style.opacity = ".5";
   img5.style.opacity = ".5";
 
-  testiMonialContentsOne.style.display = "none";
-  testiMonialContentsTwo.style.display = "none";
-  testiMonialContentsThree.style.display = "flex";
-  testiMonialContentsFour.style.display = "none";
-  testiMonialContentsFive.style.display = "none";
-
   firstTestimonial.classList.remove("show");
   secondTestimonial.classList.remove("show");
   thirdTestimonial.classList.add("show");
@@ -169,17 +149,13 @@ img3.addEventListener("click", () => {
   fourthTestimonial.style.width = "16.25%";
   fifthTestimonial.style.width = "16.25%";
 
-  // testiMonialContentsThree.classList.add("show");
-  // testiMonialContentsOne.classList.remove("show");
-  // testiMonialContentsTwo.classList.remove("show");
-  // testiMonialContentsFour.classList.remove("show");
-  // testiMonialContentsFive.classList.remove("show");
-
-  // firstTestimonial.style.flexGrow = "1";
-  // secondTestimonial.style.flexGrow = "1";
-  // thirdTestimonial.style.flexGrow = "2";
-  // fourthTestimonial.style.flexGrow = "1";
-  // fifthTestimonial.style.flexGrow = "1";
+  setTimeout(() => {
+    testiMonialContentsOne.style.display = "none";
+    testiMonialContentsTwo.style.display = "none";
+    testiMonialContentsThree.style.display = "flex";
+    testiMonialContentsFour.style.display = "none";
+    testiMonialContentsFive.style.display = "none";
+  }, 0);
 
   userInfo.innerHTML =
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!";
@@ -199,12 +175,6 @@ img4.addEventListener("click", () => {
   img4.style.opacity = "1";
   img5.style.opacity = ".5";
 
-  testiMonialContentsOne.style.display = "none";
-  testiMonialContentsTwo.style.display = "none";
-  testiMonialContentsThree.style.display = "none";
-  testiMonialContentsFour.style.display = "flex";
-  testiMonialContentsFive.style.display = "none";
-
   firstTestimonial.classList.remove("show");
   secondTestimonial.classList.remove("show");
   thirdTestimonial.classList.remove("show");
@@ -217,17 +187,13 @@ img4.addEventListener("click", () => {
   fourthTestimonial.style.width = "35%";
   fifthTestimonial.style.width = "16.25%";
 
-  // testiMonialContentsFour.classList.add("show");
-  // testiMonialContentsOne.classList.remove("show");
-  // testiMonialContentsTwo.classList.remove("show");
-  // testiMonialContentsThree.classList.remove("show");
-  // testiMonialContentsFive.classList.remove("show");
-
-  // firstTestimonial.style.flexGrow = "1";
-  // secondTestimonial.style.flexGrow = "1";
-  // thirdTestimonial.style.flexGrow = "1";
-  // fourthTestimonial.style.flexGrow = "4";
-  // fifthTestimonial.style.flexGrow = "1";
+  setTimeout(() => {
+    testiMonialContentsOne.style.display = "none";
+    testiMonialContentsTwo.style.display = "none";
+    testiMonialContentsThree.style.display = "none";
+    testiMonialContentsFour.style.display = "flex";
+    testiMonialContentsFive.style.display = "none";
+  }, 0);
 
   userInfo.innerHTML =
     " illo explicabo Odio ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo dipisicing rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est";
@@ -248,12 +214,6 @@ img5.addEventListener("click", () => {
   img4.style.opacity = ".5";
   img5.style.opacity = "1";
 
-  testiMonialContentsOne.style.display = "none";
-  testiMonialContentsTwo.style.display = "none";
-  testiMonialContentsThree.style.display = "none";
-  testiMonialContentsFour.style.display = "none";
-  testiMonialContentsFive.style.display = "flex";
-
   firstTestimonial.classList.remove("show");
   secondTestimonial.classList.remove("show");
   thirdTestimonial.classList.remove("show");
@@ -266,17 +226,13 @@ img5.addEventListener("click", () => {
   fourthTestimonial.style.width = "16.25%";
   fifthTestimonial.style.width = "35%";
 
-  // testiMonialContentsFive.classList.add("show");
-  // testiMonialContentsOne.classList.remove("show");
-  // testiMonialContentsTwo.classList.remove("show");
-  // testiMonialContentsThree.classList.remove("show");
-  // testiMonialContentsFour.classList.remove("show");
-
-  // firstTestimonial.style.flexGrow = "1";
-  // secondTestimonial.style.flexGrow = "1";
-  // thirdTestimonial.style.flexGrow = "1";
-  // fourthTestimonial.style.flexGrow = "1";
-  // fifthTestimonial.style.flexGrow = "5";
+  setTimeout(() => {
+    testiMonialContentsOne.style.display = "none";
+    testiMonialContentsTwo.style.display = "none";
+    testiMonialContentsThree.style.display = "none";
+    testiMonialContentsFour.style.display = "none";
+    testiMonialContentsFive.style.display = "flex";
+  }, 0);
 
   userInfo.innerHTML =
     "dipisicing rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est illo explicabo Odio ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo";
@@ -398,6 +354,12 @@ mobileImg1.addEventListener("click", () => {
     mobileTestiMonialContentsThree.style.display = "none";
     mobileTestiMonialContentsFour.style.display = "none";
     mobileTestiMonialContentsFive.style.display = "none";
+  } else if (screen.width >= 426 && screen.width <= 768) {
+    mobileTestiMonialContentsOne.style.display = "block";
+    mobileTestiMonialContentsTwo.style.display = "block";
+    mobileTestiMonialContentsThree.style.display = "block";
+    mobileTestiMonialContentsFour.style.display = "block";
+    mobileTestiMonialContentsFive.style.display = "block";
   }
 
   mobileUserInfo.innerHTML =
@@ -436,6 +398,12 @@ mobileImg2.addEventListener("click", () => {
     mobileTestiMonialContentsThree.style.display = "none";
     mobileTestiMonialContentsFour.style.display = "none";
     mobileTestiMonialContentsFive.style.display = "none";
+  } else if (screen.width >= 426 && screen.width <= 768) {
+    mobileTestiMonialContentsOne.style.display = "block";
+    mobileTestiMonialContentsTwo.style.display = "block";
+    mobileTestiMonialContentsThree.style.display = "block";
+    mobileTestiMonialContentsFour.style.display = "block";
+    mobileTestiMonialContentsFive.style.display = "block";
   }
 
   mobileUserInfo.innerHTML =
@@ -474,6 +442,12 @@ mobileImg3.addEventListener("click", () => {
     mobileTestiMonialContentsThree.style.display = "block";
     mobileTestiMonialContentsFour.style.display = "none";
     mobileTestiMonialContentsFive.style.display = "none";
+  } else if (screen.width >= 426 && screen.width <= 768) {
+    mobileTestiMonialContentsOne.style.display = "block";
+    mobileTestiMonialContentsTwo.style.display = "block";
+    mobileTestiMonialContentsThree.style.display = "block";
+    mobileTestiMonialContentsFour.style.display = "block";
+    mobileTestiMonialContentsFive.style.display = "block";
   }
 
   mobileUserInfo.innerHTML =
@@ -511,6 +485,12 @@ mobileImg4.addEventListener("click", () => {
     mobileTestiMonialContentsThree.style.display = "none";
     mobileTestiMonialContentsFour.style.display = "block";
     mobileTestiMonialContentsFive.style.display = "none";
+  } else if (screen.width >= 426 && screen.width <= 768) {
+    mobileTestiMonialContentsOne.style.display = "block";
+    mobileTestiMonialContentsTwo.style.display = "block";
+    mobileTestiMonialContentsThree.style.display = "block";
+    mobileTestiMonialContentsFour.style.display = "block";
+    mobileTestiMonialContentsFive.style.display = "block";
   }
 
   mobileUserInfo.innerHTML =
@@ -549,6 +529,12 @@ mobileImg5.addEventListener("click", () => {
     mobileTestiMonialContentsThree.style.display = "none";
     mobileTestiMonialContentsFour.style.display = "none";
     mobileTestiMonialContentsFive.style.display = "block";
+  } else if (screen.width >= 426 && screen.width <= 768) {
+    mobileTestiMonialContentsOne.style.display = "block";
+    mobileTestiMonialContentsTwo.style.display = "block";
+    mobileTestiMonialContentsThree.style.display = "block";
+    mobileTestiMonialContentsFour.style.display = "block";
+    mobileTestiMonialContentsFive.style.display = "block";
   }
 
   mobileUserInfo.innerHTML =
@@ -559,3 +545,21 @@ mobileImg5.addEventListener("click", () => {
     mobileUserInfo.classList.remove("animate__fadeIn");
   }, 300);
 });
+
+// Function calling while resizing the browser
+function handleResizing() {
+  if (screen.width >= 426 && screen.width <= 768) {
+    mobileTestiMonialContentsOne.style.display = "block";
+    mobileTestiMonialContentsTwo.style.display = "block";
+    mobileTestiMonialContentsThree.style.display = "block";
+    mobileTestiMonialContentsFour.style.display = "block";
+    mobileTestiMonialContentsFive.style.display = "block";
+  } else if (screen.width <= 425) {
+    mobileCaret.style.top = "44vh";
+    mobileTestiMonialContentsOne.style.display = "none";
+    mobileTestiMonialContentsTwo.style.display = "none";
+    mobileTestiMonialContentsThree.style.display = "block";
+    mobileTestiMonialContentsFour.style.display = "none";
+    mobileTestiMonialContentsFive.style.display = "none";
+  }
+}
