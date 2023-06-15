@@ -120,6 +120,7 @@ font-family: 'breadley_sansregular';
     position: relative;
     gap: 15px;
     width: 16.25%;
+    transition: all .5s ease;
   }
 
   /* .transition-all{
@@ -325,7 +326,7 @@ font-family: 'breadley_sansregular';
     .mobile-testimonials-wrapper{
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: space-around;
       gap: 10px;
     }
 
@@ -356,6 +357,10 @@ font-family: 'breadley_sansregular';
       justify-content: center;
       color: #fff;
     }
+
+    /* .mobile-testimonial-content-three .mobile-username, .mobile-testimonial-content-three .mobile-user-about{
+      opacity: 1;
+    } */
 
     .mobile-username{
       font-size: 18px;
@@ -442,11 +447,20 @@ font-family: 'breadley_sansregular';
     }
 
     .mobile-user-information-wrapper h2{
-      font-size: 18px;
+      font-size: 16px;
+      color: #fff;
+      font-family: 'breadley_sansregular' !important;
+      margin: 0;
+      padding: 0;
+      word-spacing: 5px;
     }
 
     .mobile-user-info{
-      font-size: 12px;
+      font-size: 11px;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: .3px;
+      font-weight: 400;
     }
 
     /* -------- mobile-slider-line ------------ */
@@ -476,8 +490,7 @@ font-family: 'breadley_sansregular';
     .mobile-testimonials-wrapper{
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      gap: 10px;
+      justify-content: space-around;
     }
 
     .mobile-slider-testimonials{
@@ -509,6 +522,7 @@ font-family: 'breadley_sansregular';
       flex-direction: column;
       gap: 5px;
       justify-content: center;
+      align-items: center;
       color: #fff;
       display: none;
       padding: 0px 5px;
@@ -516,14 +530,18 @@ font-family: 'breadley_sansregular';
     }
 
     .mobile-username{
-      font-size: 14px;
-      font-weight: 700;
-      letter-spacing: .6px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .3px;
       font-family: 'Montserrat', sans-serif;
+      text-align: center;
     }
 
     .mobile-user-about{
       font-size: 11px;
+      text-align: center;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
     }
   }
 

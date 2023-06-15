@@ -71,13 +71,13 @@ img1.addEventListener("click", () => {
   fourthTestimonial.style.width = "16.25%";
   fifthTestimonial.style.width = "16.25%";
 
+  testiMonialContentsTwo.style.display = "none";
+  testiMonialContentsThree.style.display = "none";
+  testiMonialContentsFour.style.display = "none";
+  testiMonialContentsFive.style.display = "none";
   setTimeout(() => {
     testiMonialContentsOne.style.display = "flex";
-    testiMonialContentsTwo.style.display = "none";
-    testiMonialContentsThree.style.display = "none";
-    testiMonialContentsFour.style.display = "none";
-    testiMonialContentsFive.style.display = "none";
-  }, 0);
+  }, 300);
 
   userInfo.innerHTML =
     "dipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur";
@@ -110,13 +110,13 @@ img2.addEventListener("click", () => {
   fourthTestimonial.style.width = "16.25%";
   fifthTestimonial.style.width = "16.25%";
 
+  testiMonialContentsOne.style.display = "none";
+  testiMonialContentsThree.style.display = "none";
+  testiMonialContentsFour.style.display = "none";
+  testiMonialContentsFive.style.display = "none";
   setTimeout(() => {
-    testiMonialContentsOne.style.display = "none";
     testiMonialContentsTwo.style.display = "flex";
-    testiMonialContentsThree.style.display = "none";
-    testiMonialContentsFour.style.display = "none";
-    testiMonialContentsFive.style.display = "none";
-  }, 0);
+  }, 300);
 
   userInfo.innerHTML =
     "dipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit";
@@ -149,13 +149,13 @@ img3.addEventListener("click", () => {
   fourthTestimonial.style.width = "16.25%";
   fifthTestimonial.style.width = "16.25%";
 
+  testiMonialContentsOne.style.display = "none";
+  testiMonialContentsTwo.style.display = "none";
+  testiMonialContentsFour.style.display = "none";
+  testiMonialContentsFive.style.display = "none";
   setTimeout(() => {
-    testiMonialContentsOne.style.display = "none";
-    testiMonialContentsTwo.style.display = "none";
     testiMonialContentsThree.style.display = "flex";
-    testiMonialContentsFour.style.display = "none";
-    testiMonialContentsFive.style.display = "none";
-  }, 0);
+  }, 300);
 
   userInfo.innerHTML =
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum!";
@@ -187,13 +187,13 @@ img4.addEventListener("click", () => {
   fourthTestimonial.style.width = "35%";
   fifthTestimonial.style.width = "16.25%";
 
+  testiMonialContentsOne.style.display = "none";
+  testiMonialContentsTwo.style.display = "none";
+  testiMonialContentsThree.style.display = "none";
+  testiMonialContentsFive.style.display = "none";
   setTimeout(() => {
-    testiMonialContentsOne.style.display = "none";
-    testiMonialContentsTwo.style.display = "none";
-    testiMonialContentsThree.style.display = "none";
     testiMonialContentsFour.style.display = "flex";
-    testiMonialContentsFive.style.display = "none";
-  }, 0);
+  }, 300);
 
   userInfo.innerHTML =
     " illo explicabo Odio ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo dipisicing rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est";
@@ -226,13 +226,13 @@ img5.addEventListener("click", () => {
   fourthTestimonial.style.width = "16.25%";
   fifthTestimonial.style.width = "35%";
 
+  testiMonialContentsOne.style.display = "none";
+  testiMonialContentsTwo.style.display = "none";
+  testiMonialContentsThree.style.display = "none";
+  testiMonialContentsFour.style.display = "none";
   setTimeout(() => {
-    testiMonialContentsOne.style.display = "none";
-    testiMonialContentsTwo.style.display = "none";
-    testiMonialContentsThree.style.display = "none";
-    testiMonialContentsFour.style.display = "none";
     testiMonialContentsFive.style.display = "flex";
-  }, 0);
+  }, 300);
 
   userInfo.innerHTML =
     "dipisicing rem accusantium amet consectetur adipisicing elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. elit. Repudiandae ut veniam minus id eum nobis ipsam quam sunt provident. Odio illo explicabo est illo explicabo Odio ab autem nostrum! Odio illo explicabo est rem accusantium eligendi quo ab autem nostrum! Lorem, ipsum dolor sit est rem accusantium eligendi quo ab autem nostrum!Lorem, ipsum dolor sit amet consectetur eligendi quo";
@@ -269,6 +269,7 @@ const mobileTestiMonialContentsFive = document.querySelector(
 );
 
 mobileTestiMonialContentsThree.style.display = "block";
+mobileTestiMonialContentsThree.style.opacity = "1";
 
 //  All testimonials main parent
 const mobileFirstTestimonial = document.querySelector(
@@ -556,9 +557,13 @@ function handleResizing() {
     mobileTestiMonialContentsFive.style.display = "block";
   } else if (screen.width <= 425) {
     mobileCaret.style.top = "44vh";
+    mobileTestiMonialContentsThree.style.display = "block";
+    mobileImg3.style.opacity = "1";
+    thirdUsername.style.opacity = "1";
+    thirdAbout.style.opacity = "1";
+
     mobileTestiMonialContentsOne.style.display = "none";
     mobileTestiMonialContentsTwo.style.display = "none";
-    mobileTestiMonialContentsThree.style.display = "block";
     mobileTestiMonialContentsFour.style.display = "none";
     mobileTestiMonialContentsFive.style.display = "none";
   }
